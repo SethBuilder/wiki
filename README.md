@@ -1,7 +1,7 @@
-#Introduction
+# Introduction
 This program is a Node.js REPL program that when opened, allows user to read Wikipedia articles on the command line, one paragraph at a time.
 
-#Installation
+# Installation
 Run this command to set up the program:
 `mkdir wiki-reader && cd wiki-reader && git clone https://github.com/SethBuilder/wiki.git && cd wiki && npm install && npm link`
 This command opens the repl:
@@ -20,7 +20,7 @@ After repl is opened, these commands are available:
 Example:
 `READ Yosemite National Park`
 
-#Limitations
+# Limitations
 1. Optional tasks of assignment are not done.
 2. When there're no more paragraphs, the program shows `undefined` when scrolling down.
 3. No tests
