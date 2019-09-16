@@ -1,0 +1,33 @@
+{
+  "name": "@seifjo1/wiki-reader",
+  "version": "1.0.0",
+  "description": "Wikimedia CLI assignment Seif",
+  "main": "src/index.js",
+  "bin": {
+    "@seifjo1/wiki-reader": "bin/wiki-reader",
+    "wiki-reader": "bin/wiki-reader"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "wiki-reader"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "node-fetch": "^2.6.0",
+    "repl": "^0.1.3",
+    "slugify": "^1.3.5",
+    "wtf_wikipedia": "^7.7.1"
+  }
+}
