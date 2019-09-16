@@ -1,7 +1,7 @@
 {
   "name": "@seifjo1/wiki-reader",
   "version": "1.0.0",
-  "description": "Wikimedia CLI assignment Seif",
+  "description": "Wikimedia CLI assignment Seif Elmughrabi",
   "main": "src/index.js",
   "bin": {
     "@seifjo1/wiki-reader": "bin/wiki-reader",

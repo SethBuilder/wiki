@@ -20,9 +20,7 @@ function getFunc(input, lang) {
     
     if (str[0] == "READ") {
         str.shift();
-        console.log(slugify(str.join('_')))
         callWiki(slugify(str.join('_')), lang);
-
     }
     else if (str[0].replace(/\n+/g, '') == "QUIT") {
         process.exit();
@@ -39,8 +37,6 @@ function callWiki(slug, lang) {
         let doc = await wtf.fetch(slug, lang)
         .then(res   =>  { return res.text().split(/\r?\n/).filter(n => n)})
         .catch(err  =>  {console.log('Not found, please try changing the language');process.exit()});
-        
-
         prompt(doc);
     })();
 }

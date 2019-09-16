@@ -2,9 +2,7 @@ import arg from 'arg';
 import figlet from 'figlet';
 import chalk from 'chalk';
 import inquirer from 'inquirer';
-
 import { readArticle } from './main';
-
 
 function parseArgumentsIntoOptions(rawArgs) {
     const args = arg(
@@ -20,7 +18,6 @@ function parseArgumentsIntoOptions(rawArgs) {
 
 async function promptForMissingOptions(options) {
  const defaultLanguage = 'English';
-
  const questions = [];
  const languages = {'English':  'en', 'French':  'fr', 'Spanish':  'es', 'Arabic':  'ar'};
  
