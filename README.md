@@ -12,11 +12,11 @@ This command opens the repl:
 
 `wiki-reader <language>`
 
-Example:
+**Example:**
 
 `wiki-reader English`
 
-Supported languages: 
+**Supported languages:**
 
 English, French, Spanish and Arabic (case sensitive)
 
@@ -28,7 +28,7 @@ After repl is opened, these commands are available:
 
 `READ <Article title>`
 
-Example:
+**Example:**
 
 `READ Yosemite National Park`
 
